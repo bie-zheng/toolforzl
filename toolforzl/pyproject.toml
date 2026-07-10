@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toolforzl"
+version = "0.1.0"
+description = "A brief description of your package"
+readme = "README.md"
+authors = [
+    {name = "zl", email = "zhenli2003@qq.com"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.12"
+dependencies = [
+    # "numpy>=1.19",
+    # "requests>=2.25",
+]
